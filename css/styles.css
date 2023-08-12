@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+main div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    animation: animationn 6s infinite;
+    margin-top: 3em;
+}
+
+@keyframes animationn {
+	0% {
+		transform: scale(1.3);
+		transition: ease all 2s;
+	}
+
+	100% {
+		transition: ease all 2s;
+		transform: scale(2.3);
+	}
+}
